@@ -70,7 +70,15 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.4 }}
           className="text-lg md:text-2xl text-slate-400 font-light max-w-2xl mx-auto mb-10 italic"
         >
-          "Leading Yourself: A Biblical Perspective to Kingdom Leadership"
+          "A Biblical Perspective to Leadership"
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.4 }}
+          className="text-lg md:text-2xl text-slate-400 font-light max-w-2xl mx-auto mb-10 italic"
+        >
+          "Leading Yourself"
         </motion.p>
 
         {/* Countdown Integration */}
@@ -97,7 +105,7 @@ export default function Hero() {
             </div>
             <div className="flex items-center gap-2 text-sm uppercase tracking-widest">
               <MapPin className="w-4 h-4 text-amber-500" /> Virtual Conference
-              (Global)
+              {/* (Global) */}
             </div>
           </div>
 

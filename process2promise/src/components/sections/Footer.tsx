@@ -19,7 +19,7 @@ export const Footer = () => (
           YouTube
         </a>
         <a href="#" className="hover:text-amber-500 transition-colors">
-          LinkedIn
+          Telegram
         </a>
       </div>
 
