@@ -5,10 +5,9 @@ export const Footer = () => (
         <h2 className="font-serif font-bold text-2xl text-white">
           Process to <span className="text-amber-500">Promise</span>
         </h2>
-        {/* <p className="text-slate-500 text-sm mt-2 max-w-md mx-auto italic">
-          "The heart of man plans his way, but the Lord establishes his steps."
-          — Proverbs 16:9
-        </p> */}
+        <p className="text-slate-500 text-sm mt-2 max-w-md mx-auto italic">
+          "The future you want is reached by the promise you keep."
+        </p>
       </div>
 
       <div className="flex justify-center gap-6 mb-8 text-slate-400">

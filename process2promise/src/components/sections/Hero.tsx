@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "../ui/button";
 import { CountdownTimer } from "@/src/hook/usecountdown";
-import { CalendarDays, MapPin, ArrowRight } from "lucide-react";
+import { CalendarDays, MapPin, ArrowRight, TimerIcon } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -104,6 +104,9 @@ export default function Hero() {
               Friday — 17th Saturday, 2026
             </div>
             <div className="flex items-center gap-2 text-sm uppercase tracking-widest">
+              <TimerIcon className="w-4 h-4 text-amber-500" /> 3PM (WAT)
+            </div>
+            <div className="flex items-center gap-2 text-sm uppercase tracking-widest">
               <MapPin className="w-4 h-4 text-amber-500" /> Virtual Conference
               {/* (Global) */}
             </div>
@@ -114,7 +117,13 @@ export default function Hero() {
               size="lg"
               className="bg-amber-600 hover:bg-amber-700 text-white px-8 h-14 rounded-none font-bold group"
             >
-              SECURE YOUR SEAT
+              <a
+                href="https://meet.google.com/cbp-jjmw-mxt"
+                target="_blank"
+                rel="noopener"
+              >
+                SECURE SEAT
+              </a>
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
