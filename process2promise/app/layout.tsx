@@ -36,7 +36,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Process to Promise ||",
+  title:
+    "Process to Promise Conference || The future you want is reached by the promise you keep.",
   description: "Biblical Perspective to Leadership"
 };
 

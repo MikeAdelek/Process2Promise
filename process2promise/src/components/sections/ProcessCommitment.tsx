@@ -23,7 +23,7 @@ export const ProcessCommitment = () => {
         <motion.div
           initial={{ scaleX: 0 }}
           // whileInFocus={{ scaleX: 1 }}
-          className="absolute bottom-0 left-0 w-full h-[2px] bg-amber-500 origin-left"
+          className="absolute bottom-0 left-0 w-full h-0.5 bg-amber-500 origin-left"
         />
       </div>
 

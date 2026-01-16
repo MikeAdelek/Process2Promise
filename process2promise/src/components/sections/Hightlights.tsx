@@ -5,13 +5,26 @@ import { motion } from "framer-motion";
 import { MessageSquare, Users, LineChart, Compass } from "lucide-react";
 
 const highlights = [
-  { title: "Interactive Sessions", icon: <Users className="text-amber-500" /> },
+  {
+    title: "Interactive Sessions",
+    desc: "Move from theory to practice with live leadership workshops.",
+    icon: <Users className="text-amber-500" />
+  },
   {
     title: "Questions & Answers",
+    desc: "Direct access to kingdom leaders for real-time guidance.",
     icon: <MessageSquare className="text-amber-500" />
   },
-  { title: "Evaluating 2025", icon: <LineChart className="text-amber-500" /> },
-  { title: "Planning for 2026", icon: <Compass className="text-amber-500" /> }
+  {
+    title: "Evaluating 2025",
+    desc: "An honest audit of your leadership 'Process' this past year.",
+    icon: <LineChart className="text-amber-500" />
+  },
+  {
+    title: "Planning for 2026",
+    desc: "Mapping out the 'Promise' with a strategic vision roadmap.",
+    icon: <Compass className="text-amber-500" />
+  }
 ];
 
 const containerVariants = {
@@ -29,7 +42,7 @@ const cardVariants = {
 
 export const Highlights = () => {
   return (
-    <section className="py-24 bg-[#0f1115] relative overflow-hidden">
+    <section id="highlights" className="py-24 bg-[#0f1115] relative overflow-hidden">
       {/* Background Subtle Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-amber-500/5 blur-[120px] rounded-full pointer-events-none" />
 
@@ -51,7 +64,9 @@ export const Highlights = () => {
                   <h3 className="font-serif font-bold text-xl text-white mb-3 tracking-tight">
                     {item.title}
                   </h3>
-                  {/* <p className="text-slate-400 text-sm leading-relaxed">{item.desc}</p> */}
+                  <p className="text-slate-400 text-sm leading-relaxed">
+                    {item.desc}
+                  </p>
                 </CardContent>
               </Card>
             </motion.div>
