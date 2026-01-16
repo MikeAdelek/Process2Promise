@@ -17,7 +17,12 @@ export const Footer = () => (
         <a href="#" className="hover:text-amber-500 transition-colors">
           YouTube
         </a>
-        <a href="#" className="hover:text-amber-500 transition-colors">
+        <a
+          href="https://t.me/+HHspCSkbhic5N2E0"
+          target="_blank"
+          rel="noopener"
+          className="hover:text-amber-500 transition-colors"
+        >
           Telegram
         </a>
       </div>

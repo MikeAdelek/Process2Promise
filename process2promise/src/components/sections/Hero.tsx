@@ -70,12 +70,12 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.4 }}
           className="text-lg md:text-2xl text-slate-400 font-light max-w-2xl mx-auto mb-10 italic"
         >
-          "A Biblical Perspective to Leadership"
+          A Biblical Perspective to Leadership
         </motion.p>
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.4 }}
+          transition={{ duration: 1, delay: 0.6 }}
           className="text-lg md:text-2xl text-slate-400 font-light max-w-2xl mx-auto mb-10 italic"
         >
           "Leading Yourself"
@@ -101,7 +101,7 @@ export default function Hero() {
           <div className="flex flex-col items-center md:items-start gap-2 text-slate-300 mr-0 md:mr-8">
             <div className="flex items-center gap-2 text-sm uppercase tracking-widest">
               <CalendarDays className="w-4 h-4 text-amber-500" /> Jan 16th
-              Friday — 17th Saturday, 2026
+              Friday 2026
             </div>
             <div className="flex items-center gap-2 text-sm uppercase tracking-widest">
               <TimerIcon className="w-4 h-4 text-amber-500" /> 3PM (WAT)
@@ -122,7 +122,7 @@ export default function Hero() {
                 target="_blank"
                 rel="noopener"
               >
-                SECURE SEAT
+                JOIN LIVE
               </a>
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>

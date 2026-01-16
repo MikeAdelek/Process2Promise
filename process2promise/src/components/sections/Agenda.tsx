@@ -11,17 +11,17 @@ const schedule = [
       "The Silence of the Wilderness",
       "Refining the Leader's Heart"
     ]
-  },
-  {
-    day: "Day 02",
-    date: "Jan 17",
-    theme: "The Promise: Leading Outward",
-    events: [
-      "Strategic Vision Mapping 2026",
-      "Building Kingdom Culture",
-      "Q&A: The Burden of Leadership"
-    ]
   }
+  // {
+  //   day: "Day 02",
+  //   date: "Jan 17",
+  //   theme: "The Promise: Leading Outward",
+  //   events: [
+  //     "Strategic Vision Mapping 2026",
+  //     "Building Kingdom Culture",
+  //     "Q&A: The Burden of Leadership"
+  //   ]
+  // }
 ];
 
 export const Agenda = () => (

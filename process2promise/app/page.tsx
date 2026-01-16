@@ -1,4 +1,4 @@
-// import { Agenda } from "@/src/components/sections/Agenda";
+import { Agenda } from "@/src/components/sections/Agenda";
 import { Footer } from "@/src/components/sections/Footer";
 import { Header } from "@/src/components/sections/Header";
 import Hero from "@/src/components/sections/Hero";

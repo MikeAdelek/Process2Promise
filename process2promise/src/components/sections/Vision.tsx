@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "../ui/button";
 import { ArrowRight, CheckCircle } from "lucide-react";
+import Image from "next/image";
 
 export const Vision = () => {
   return (
@@ -12,25 +13,20 @@ export const Vision = () => {
     >
       <div className="max-w-7xl mx-auto px-6">
         {/* 1. THE IMAGE (Conference Visual) */}
-        {/* <motion.div
-          initial={{ opacity: 0, y: 40 }}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
           viewport={{ once: true }}
-          className="relative w-full aspect-[21/9] rounded-2xl overflow-hidden mb-20 shadow-2xl"
+          className="relative w-full max-w-7xl mx-auto aspect-square md:aspect-16/10 rounded-2xl overflow-hidden mb-20 shadow-[0_32px_64px_-15px_rgba(0,0,0,0.3)]"
         >
-          Use your actual conference image here. Using a high-end placeholder for now
-          <img
-            src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&q=80&w=2070"
-            alt="Process to Promise Leadership"
-            className="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-[3s]"
+          {/* Using your actual shared graphic */}
+          <Image
+            src="/ptop.png"
+            alt="Process to Promise Summit Official"
+            fill
+            className="object-cover hover:scale-105 transition-transform duration-700"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-12">
-            <p className="text-white/80 font-serif italic text-lg md:text-2xl">
-              "Transformation is a daily devotion."
-            </p>
-          </div>
-        </motion.div> */}
+        </motion.div>
 
         {/* 2. THE ABOUT CONTENT */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
@@ -108,8 +104,14 @@ export const Vision = () => {
                 size="lg"
                 className="bg-amber-600 hover:bg-amber-700 text-white h-14 px-8 rounded-full font-bold w-full sm:w-auto"
               >
-                JOIN THE COMMUNITY
-                <ArrowRight className="ml-2 w-4 h-4" />
+                <a
+                  href="https://chat.whatsapp.com/Cd5IInxAETpKJq0pAaAdvC"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  JOIN THE COMMUNITY
+                  <ArrowRight className="ml-2 w-4 h-4" />
+                </a>
               </Button>
               {/* <div className="flex items-center gap-2 text-slate-400 text-sm italic">
                 <CheckCircle className="w-4 h-4 text-amber-500" />

@@ -9,7 +9,7 @@ export const Header = () => {
 
   const navLinks = [
     { name: "Vision", href: "#vision" },
-    // { name: "Agenda", href: "#agenda" },
+    { name: "Agenda", href: "#agenda" },
     { name: "Speakers", href: "#speakers" }
     // { name: "Register", href: "#register" }
   ];

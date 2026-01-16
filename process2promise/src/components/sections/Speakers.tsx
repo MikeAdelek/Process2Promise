@@ -8,21 +8,42 @@ const speakers = [
     role: "Keynote Speaker",
     initials: "EA",
     image: null, // Image coming soon
-    focus: "Spiritual Governance"
+    focus: "Word Session"
   },
   {
     name: "Pastor Kelechi Tonycheta",
     role: "Keynote Speaker",
     image: null, // Image present
     initials: "KT",
-    focus: "Consistent Action"
+    focus: "Questions & Answer"
   },
   {
     name: "Wuraola Olalekan",
     role: "Speaker",
     initials: "WO",
     image: null, // Image coming soon
-    focus: "Sustainable Growth"
+    focus: "Evaluating 2025 & Preparing for 2026"
+  },
+  {
+    name: "Michael Olomola",
+    role: "Speaker",
+    initials: "MO",
+    image: null, // Image coming soon
+    focus: "Treasure Within"
+  },
+  {
+    name: "Favour Olalekan",
+    role: "Speaker",
+    initials: "FO",
+    image: null, // Image coming soon
+    focus: "Treasure Within"
+  },
+  {
+    name: "Marvellous Agboola",
+    role: "Speaker",
+    initials: "MA",
+    image: null, // Image coming soon
+    focus: "Treasure Within"
   }
 ];
 
@@ -86,6 +107,9 @@ export const SpeakerSection = () => (
               </h4>
               <p className="text-slate-500 text-sm uppercase tracking-widest mt-1">
                 {speaker.role}
+              </p>
+              <p className="text-slate-500 text-sm uppercase tracking-widest mt-1">
+                {speaker.focus}
               </p>
               <div className="mt-4 h-[1px] w-8 bg-amber-500 group-hover:w-full transition-all duration-700" />
             </div>
